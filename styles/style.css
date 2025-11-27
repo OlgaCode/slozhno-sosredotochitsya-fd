@@ -330,6 +330,7 @@
   
   .answer_block.answer_what {
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .answer_what .answer {
