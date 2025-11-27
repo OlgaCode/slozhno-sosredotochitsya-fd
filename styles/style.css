@@ -203,11 +203,12 @@
   margin-block-end: 10px;
 }
 
-.section_pictures-item {
+.section_pictures-pic {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center;
+  display: block;
 }
 
 .footer {
@@ -215,9 +216,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  min-block-size: 668px;
+  min-block-size: 678px;
   margin-block-start: 40px;
-  padding-block-end: 10px;
+  /* padding-block-end: 10px; */
 }
 
 @media (width>=768px) {
@@ -294,7 +295,7 @@
   .footer {
     min-block-size: 768px;
     margin-block-start: 60px;
-    padding-block-end: 20px;
+    /* padding-block-end: 20px; */
   }
 
   
